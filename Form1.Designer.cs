@@ -37,7 +37,7 @@ namespace Google_translate_desktop
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 761);
             this.Name = "Form1";
-            this.Text = "Google Translate";
+            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }

@@ -11,7 +11,8 @@ using CefSharp;
 using CefSharp.WinForms;
 
 namespace Google_translate_desktop
-{    public partial class Form1 : Form
+{
+    public partial class Form1 : Form
     {
         public ChromiumWebBrowser browser;
 
@@ -26,12 +27,17 @@ namespace Google_translate_desktop
                     "document.documentElement.style.overflowY = 'hidden';");
             }
         }
-        
+
         public void InitBrowser()
         {
+            var newsettings = new BrowserSettings();
             var settings = new CefSettings();
+
+            this.Text = "Google Translate";
+            settings.CachePath = System.IO.Path.GetTempPath() + "\\googleTranslate";
             Cef.Initialize(settings);
             browser = new ChromiumWebBrowser("https://translate.google.com/");
+
             this.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
             browser.FrameLoadEnd += OnBrowserFrameLoadEnd;

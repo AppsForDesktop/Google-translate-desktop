@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props" Condition="Exists('..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props')" />
-  <Import Project="..\packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props" Condition="Exists('..\packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props')" />
-  <Import Project="..\packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props" Condition="Exists('..\packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props')" />
+  <Import Project="packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props" Condition="Exists('packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props')" />
+  <Import Project="packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props" Condition="Exists('packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props')" />
+  <Import Project="packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props" Condition="Exists('packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCEA8E42-CA35-4D83-9C11-7B1165D8C670}</ProjectGuid>
+    <ProjectGuid>{F22B9BF8-642B-4934-BD62-09386D687136}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Google_translate_desktop</RootNamespace>
     <AssemblyName>Google translate desktop</AssemblyName>
@@ -15,11 +15,10 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <TargetFrameworkProfile />
-    <PublishUrl>E:\Documents\MyProjects\Google translate master\Google translate desktop\Google translate desktop\Publish\</PublishUrl>
+    <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -37,15 +36,14 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>x64</PlatformTarget>
@@ -60,30 +58,35 @@
     <ApplicationIcon>Google_Translate_Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>152F17BF7E74338DFF9DD310F1F3DE6538DF3798</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>Google translate desktop_TemporaryKey.pfx</ManifestKeyFile>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5747135A05D6DF4C92A1B01E54E6FC61BAB5AE88</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CefSharp, Version=108.4.130.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
-      <HintPath>..\packages\CefSharp.Common.108.4.130\lib\net452\CefSharp.dll</HintPath>
+      <HintPath>packages\CefSharp.Common.108.4.130\lib\net452\CefSharp.dll</HintPath>
     </Reference>
     <Reference Include="CefSharp.Core, Version=108.4.130.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
-      <HintPath>..\packages\CefSharp.Common.108.4.130\lib\net452\CefSharp.Core.dll</HintPath>
+      <HintPath>packages\CefSharp.Common.108.4.130\lib\net452\CefSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="CefSharp.WinForms, Version=108.4.130.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
-      <HintPath>..\packages\CefSharp.WinForms.108.4.130\lib\net452\CefSharp.WinForms.dll</HintPath>
+      <HintPath>packages\CefSharp.WinForms.108.4.130\lib\net452\CefSharp.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -116,8 +119,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Google translate desktop_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -127,12 +130,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Google_Translate_Icon.ico" />
+    <Content Include="Google_Translate_Icon.ico" />
+    <None Include="Resources\Google_Translate_Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6">
@@ -145,26 +150,16 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Visual.C++.14.0.x64">
-      <Visible>False</Visible>
-      <ProductName>Visual C++ "14" Runtime Libraries %28x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Visual.C++.14.0.x86">
-      <Visible>False</Visible>
-      <ProductName>Visual C++ "14" Runtime Libraries %28x86%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props'))" />
-    <Error Condition="!Exists('..\packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets'))" />
+    <Error Condition="!Exists('packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\cef.redist.x64.108.4.13\build\cef.redist.x64.props'))" />
+    <Error Condition="!Exists('packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\cef.redist.x86.108.4.13\build\cef.redist.x86.props'))" />
+    <Error Condition="!Exists('packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.108.4.130\build\CefSharp.Common.props'))" />
+    <Error Condition="!Exists('packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets'))" />
   </Target>
-  <Import Project="..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets')" />
+  <Import Project="packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets" Condition="Exists('packages\CefSharp.Common.108.4.130\build\CefSharp.Common.targets')" />
 </Project>
