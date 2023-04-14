@@ -2,18 +2,26 @@
 
 Google translate PC desktop is the same Google translate but for Windows as desktop application.
 
-Google Translate is a free multilingual neural machine translation service developed by Google, to translate text and websites from one language into another.
-Google Translate supports 109 languages at various levels and as of April 2016, claimed over 500 million total users, with more than 100 billion words translated daily.Launched in April 2006 as a statistical machine translation service, it used United Nations and European Parliament documents and transcripts to gather linguistic data. Rather than translating languages directly, it first translates text to English and then pivots to the target language in most of the language combinations it posits in its grid, with a few exceptions including Catalan-Spanish.
+Google Translate windows is a free multilingual neural machine translation service developed by Google, to translate text and websites from one language into another.
 
-Perks of having Google translate windows App
+1.   It capable of:
+     - Text translation: Translate between 108 languages by typing
+     - Tap to Translate: Copy text in any app and tap the Google Translate icon to translate (all languages)
+     - Offline: Translate with no internet connection (59 languages)
+     - Instant camera translation: Translate text in images instantly by just pointing your camera (94 languages)
+     - Photos: Take or import photos for higher quality translations (90 languages)
+     - Conversations: Translate bilingual conversations on the fly (70 languages)
+     - Handwriting: Draw text characters instead of typing (96 languages)
+     - Phrasebook: Star and save translated words and phrases for future reference (all languages)
+     - Cross-device syncing: Login to sync phrasebook between app and desktop
+     - Transcribe: Continuously translate someone speaking a different language in near real-time (8 languages)
 
-An icon on your quick access spots
+2.   Perks of having Google translate windows App:
+     - An icon on your quick access spots
+     - One-click launch
+     - No need for an open browser tab
 
-One-click launch
-
-No need for an open browser tab
-
-Google translate works on Windos 7, Widows 8, Windows 10, Windows 11.
+Google translate desktop works on Windos 7, Widows 8, Windows 10, Windows 11.
 
 What are you waiting for? Hit Download and open up Desktop Translator App on your Windows platform Desktop or Laptop.
 
@@ -29,11 +37,9 @@ Run the "Google.translate.desktop.install.exe" and follow installation instructi
 
 ## For professionals
 
-You can build whole application from source code. For that you will need:
-
-Visual studio 2019 with support to build .NET Framework 4.6
-
-If you would like to create such installer as in release, you will need NSIS 2.5.1.
+3.   You can build whole application from source code. For that you will need:
+     - Visual studio 2019 with support to build .NET Framework 4.6
+     - If you would like to create such installer as in release, you will need NSIS 2.5.1.
 
 Run Developer Command Prompt for VS 2019
 
