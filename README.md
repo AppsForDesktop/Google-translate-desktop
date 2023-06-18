@@ -27,9 +27,11 @@ What are you waiting for? Hit Download and open up Desktop Translator App on you
 
 ## Installation
 
-You can download Google translate desktop for Windows by running the installer of latest [release](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe).
+To get Google translate desktop for Windows, you can [Download Google translate desktop installer](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe).
 
 [Скачать](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) Google переводчик
+
+Or you can check the [releases](https://github.com/AppsForDesktop/Google-translate-desktop/releases) page.
 
 ## Usage
 
